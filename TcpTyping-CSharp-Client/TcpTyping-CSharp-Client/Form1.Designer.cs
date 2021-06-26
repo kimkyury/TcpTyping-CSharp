@@ -102,7 +102,6 @@ namespace TcpTyping_CSharp_Client
             this.label4.Size = new System.Drawing.Size(61, 12);
             this.label4.TabIndex = 13;
             this.label4.Text = "총 글자 수";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // pictureBox1
             // 
@@ -172,7 +171,6 @@ namespace TcpTyping_CSharp_Client
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
